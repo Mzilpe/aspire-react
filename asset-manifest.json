@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aspire-react/static/css/main.635fd4cd.css",
+    "main.js": "/aspire-react/static/js/main.b7773c0a.js",
+    "static/media/aspire.svg": "/aspire-react/static/media/aspire.32032391fd996da2defb1413db2ba3b3.svg",
+    "index.html": "/aspire-react/index.html",
+    "static/media/eye.svg": "/aspire-react/static/media/eye.d5480cb992892db6a991169abf6d2e54.svg",
+    "static/media/add-btn-icon.svg": "/aspire-react/static/media/add-btn-icon.65d4fc46dd7acbf97c30a9976277e7c4.svg",
+    "main.635fd4cd.css.map": "/aspire-react/static/css/main.635fd4cd.css.map",
+    "main.b7773c0a.js.map": "/aspire-react/static/js/main.b7773c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.635fd4cd.css",
+    "static/js/main.b7773c0a.js"
+  ]
+}
