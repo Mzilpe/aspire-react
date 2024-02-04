@@ -1,0 +1,27 @@
+
+
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    min-width: 414px;
+    width: 100%;
+    padding: 0 24px 0 24px;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+
+    &--item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        span {
+            margin-top: 4px;
+            font-size: 9px;
+            color: #DDDDDD;
+        }
+    }
+}

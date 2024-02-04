@@ -1,0 +1,82 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    width: 358px;
+    height: 246px;
+    position: relative;
+    
+    &__toggle-details {
+        height: 15px;
+        display: flex;
+        gap: 6px;
+        border-radius: 6px 6px 0 0;
+        position: absolute;
+        background-color: white;
+        padding: 6px 10px 18px;
+        right: 0;
+
+        &__text {
+            color: #01D167;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        transition:  background-color 0.3s ease-in-out;
+        background-color: #01D167;
+        border-radius: 12px;
+        margin-top: 26px;
+        z-index: 1;
+        padding: 24px;
+        &--freezed{
+            
+            background-color: #3c3d3d;
+        }
+        &__aspire-icon {
+            align-self: flex-end;
+        }
+
+        &__details {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-top: 24px;
+
+            &__holder-name {
+                font-size: 22px;
+                font-weight: bold;
+                color: white;
+            }
+
+
+            &__card-number {
+                display: flex;
+                gap: 24px;
+                font-size: 14px;
+
+                &__number {
+                    color: white;
+                    font-weight: 600;
+                    letter-spacing: 3px;
+                }
+            }
+
+            &__exp-date-cvv {
+                display: flex;
+                font-size: 13px;
+                gap: 30px;
+                color: white;
+                font-weight: 800;
+            }
+        }
+
+        &__footer {
+            align-self: flex-end;
+        }
+    }
+}

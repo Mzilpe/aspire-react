@@ -1,0 +1,16 @@
+.card-container {
+    padding: 24.5px 24px 0 24px;
+    display: flex;
+    gap: 16px;
+    overflow-y: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__card-item {
+        height: 100%;
+        scroll-snap-align: center;
+    }
+}

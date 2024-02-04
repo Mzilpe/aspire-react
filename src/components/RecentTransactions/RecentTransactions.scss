@@ -1,0 +1,33 @@
+.recent-transactions{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    &__header{
+        background-color: #FAFCFF;;
+        &--left{
+            display: flex;
+            align-items: center;
+            
+            h4 {
+                color: #0C365A;
+                margin-left: 12px;
+            } 
+        }
+        box-sizing: border-box;
+        border: 1px solid #F0F0F0;
+        border-radius: 8px;
+        width: 366px;
+        height: 72px;
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &__body{
+        transition: 0.5s ease-out;
+        
+    }
+}

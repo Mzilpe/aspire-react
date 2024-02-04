@@ -1,0 +1,31 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+
+    &__state {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24px;
+
+        &__item-point {
+            background-color: #01d167;
+            opacity: 0.1;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+
+            &--selected {
+                width: 16px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+body {
+    background-color: #0c365a;
+}
